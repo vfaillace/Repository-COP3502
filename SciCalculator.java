@@ -47,8 +47,8 @@ public class SciCalculator {
 
             while (menuSelect) {
 
-                operation = Scnr.nextInt();
-                if (operation >= 0 && operation <= 7) {
+                operation = Scnr.nextInt(); // Github edit
+                if (operation >= 0 && operation <= 7) { // checks what opperation values are inputted
                     if (operation == 7) {
                         if (sumOfcalc == 0) {   // when there has not been a calculation done previously
                             System.out.println("Error: No calculations yet to average!");
